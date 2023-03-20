@@ -34,4 +34,3 @@ The following model is being proposed for usage in the Pilot version of the Clin
 | - Link                                           | Plain Language        | url                                            |            |         |
 | Visits Required per Month                        | Plain Language        | Numeric                                        | 1 - 10     |         |
 
-Other..
