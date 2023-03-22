@@ -372,12 +372,14 @@ to join our group please fill out <a href="https://patientfocusedmedicine.org/tr
 form</a> to learn more.</p>
 <p>If you want to suggest an update or addition to the CTDN Common Data
 Model please open an <a href="https://github.com/bgoodmanfsc/bgoodmanfsc.github.io/issues">issue</a>.
-In addition, a csv of the table below can be found here for either
-comment or further suggested edits.</p>
+In addition, a csv of the tables below can be found in this repository
+for either comment or further suggested edits.</p>
 <hr />
-<p>The following model is being proposed for usage in the Pilot version
+<p>The following model is being proposed for usage in the pilot version
 of the Clinical Trial Distribution Network. We are open to all
 contributions or suggested edits to this data model.</p>
+<div id="inclusion-exclusion-criteria" class="section level3">
+<h3>Inclusion / Exclusion Criteria</h3>
 <table style="width:99%;">
 <colgroup>
 <col width="11%" />
@@ -527,21 +529,22 @@ diagnosed breast cancer.</p></td>
 <tr class="even">
 <td>Performance Status</td>
 <td>Exclusion</td>
-<td></td>
+<td>Boolean</td>
 <td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
+</div>
 <div id="plain-language-summary" class="section level3">
 <h3>Plain Language Summary</h3>
-<table style="width:97%;">
+<table style="width:99%;">
 <colgroup>
-<col width="23%" />
-<col width="14%" />
-<col width="16%" />
-<col width="10%" />
-<col width="32%" />
+<col width="13%" />
+<col width="8%" />
+<col width="7%" />
+<col width="6%" />
+<col width="63%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -554,60 +557,55 @@ diagnosed breast cancer.</p></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Plain Language Summary</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
 <td>Purpose of the Study</td>
 <td>Plain Language</td>
-<td>String, Paragraph</td>
-<td></td>
-<td></td>
+<td>String</td>
+<td>None</td>
+<td>To study the effects of metformin and atorvastin on breast cancer
+cells.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Who is it for</td>
 <td>Plain Language</td>
-<td>String, Paragraph</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>What is involved</td>
-<td>Plain Language</td>
-<td>String, Paragraph</td>
-<td></td>
-<td></td>
+<td>String</td>
+<td>None</td>
+<td>Women with stage DCIS, I, stage II, or stage III breast cancer.</td>
 </tr>
 <tr class="odd">
-<td>How can I learn more</td>
+<td>What is involved</td>
 <td>Plain Language</td>
-<td>String, Paragraph</td>
-<td></td>
-<td></td>
+<td>String</td>
+<td>None</td>
+<td>You will receive the following: Metformin and atorvastatin, by
+mouth, daily, for 2 weeks prior to surgery”</td>
 </tr>
 <tr class="even">
+<td>How can I learn more</td>
+<td>Plain Language</td>
+<td>String or URL</td>
+<td>None</td>
+<td>See below</td>
+</tr>
+<tr class="odd">
 <td>- Resource</td>
 <td>Plain Language</td>
 <td>String</td>
-<td></td>
-<td></td>
+<td>None</td>
+<td>BreastCancer.org</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>- Link</td>
 <td>Plain Language</td>
 <td>url</td>
-<td></td>
-<td></td>
+<td>None</td>
+<td><a href="https://www.breastcancer.org/treatment/hormonal/erds/faslodex%22">https://www.breastcancer.org/treatment/hormonal/erds/faslodex</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Visits Required per Month</td>
 <td>Plain Language</td>
-<td>Numeric</td>
+<td>Integer</td>
 <td>1 - 10</td>
-<td></td>
+<td>2</td>
 </tr>
 </tbody>
 </table>
@@ -615,9 +613,9 @@ diagnosed breast cancer.</p></td>
 </div>
 <div id="ctdn-parser-of-inclusion-and-exclusion-criteria" class="section level3">
 <h3>CTDN Parser of Inclusion and Exclusion Criteria</h3>
-<p>This respository and effort is working in collaboration with an
-effort to further advance the use of ML to parse inclusion and exclusion
-criteria in clincial trials, building on the work originally started by
+<p>This repository and effort is working in collaboration with an effort
+to further advance the use of ML to parse inclusion and exclusion
+criteria in clinical trials, building on the work originally started by
 Facebook and further extended by our working group partner Roche.</p>
 </div>
 </div>
